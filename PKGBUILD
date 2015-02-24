@@ -4,9 +4,9 @@
 # Contributor: actionless <actionless (dot) loveless (at) gmail (dot) com>
 
 pkgname=xscreensaver-federation-logo
-pkgver=5.26
-pkgrel=3
-pkgdesc="Screen saver and locker for the X Window System with Arch Linux branding"
+pkgver=5.32
+pkgrel=1
+pkgdesc="Screen saver and locker for the X Window System with Star Trek branding"
 arch=('i686' 'x86_64')
 url="http://www.jwz.org/xscreensaver/"
 license=('BSD')
@@ -19,7 +19,7 @@ source=(http://www.jwz.org/xscreensaver/${pkgname%%-*}-${pkgver}.tar.gz
 xscreensaver-add-electricsheep.diff LICENSE
 xanalogtv-fix.diff
 logo-50.xpm logo-180.xpm)
-sha256sums=('2ca4dc66e11947396124d1f87dd2787e0d8dd8dd1ada8871b3d8df40fb4f1b55'
+sha256sums=('4252a6079d2d2f5b342e8bdd172cbad5f0af73daf4e412b61a68344d91ca93bd'
             'c78db4518d1e439811e177638015c7152c5714f13d1cdb32e5d1f53695c52fec'
             '5eb972b5dc6fa01b9de5c529fa4e3cfd4e1fd60eba0159d0821d5d47d1cf2eac'
             '818ae55c122133206b8f7c71d52220902acb318fa521cd9d70fa438c9419a383'
